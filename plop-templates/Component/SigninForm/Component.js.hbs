@@ -1,0 +1,43 @@
+import React from 'react';
+import PropTypes from 'prop-types';
+import styles from './{{pascalCase name}}.module.scss';
+
+const {{pascalCase name}} = props => {
+  return (
+     <div className={styles.container}>
+      <h2 className={styles.title}>{{parsedData.title}}</h2>
+      <form className={styles.form}>
+        <div className={styles.formGroup}>
+          <label htmlFor="username">Username <span>*</span></label>
+          <input type="text" id="username" name="username" />
+        </div>
+        <div className={styles.formGroup}>
+          <label htmlFor="password">Password <span>*</span></label>
+          <input type="password" id="password" name="password" />
+        </div>
+        <a href='#' className={styles.forgotPassword}>Forgot password?</a>
+        <button className={styles.submitButton}>
+          Login
+        </button>
+        <div className={styles.orText}>Or</div>
+        <button className={styles.otherLoginButton}>
+         <img src='https://static-00.iconduck.com/assets.00/google-icon-2048x2048-czn3g8x8.png' /> Google
+        </button>
+        <button className={styles.otherLoginButton}>
+          <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2021_Facebook_icon.svg/2048px-2021_Facebook_icon.svg.png' /> Facebook
+        </button>
+        <div className={styles.register}>Don't have an account. <a href='#'>Register</a></div>
+      </form>
+    </div>
+  );
+};
+
+{{pascalCase name}}.defaultProps = {
+
+};
+
+{{pascalCase name}}.propTypes = {
+
+};
+
+export default {{pascalCase name}};

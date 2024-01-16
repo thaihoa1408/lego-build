@@ -1,0 +1,23 @@
+import React from 'react';
+import PropTypes from 'prop-types';
+import styles from './{{pascalCase name}}.module.scss';
+import SigninForm from '../../components/SigninForm';
+
+const {{pascalCase name}} = props => {
+  return (
+    <div className={styles.container}>
+      <SigninForm />
+      <img className={styles.logo} src='https://i.imgur.com/sgMNZrZ.png' />
+    </div>
+  );
+};
+
+{{pascalCase name}}.defaultProps = {
+
+};
+
+{{pascalCase name}}.propTypes = {
+
+};
+
+export default {{pascalCase name}};

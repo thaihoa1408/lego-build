@@ -1,0 +1,131 @@
+/* LoginForm.module.css */
+.container {
+  width: 100%;
+  max-width: 472px;
+  padding: 16px;
+  border-radius: 12px;
+  background: #FFF;
+  box-shadow: -2px 3px 30px 0px rgba(0, 0, 0, 0.15);
+}
+.title{
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+.formGroup:nth-child(1){
+  margin-bottom: 16px;
+}
+.formGroup:nth-child(2){
+  margin-bottom: 4px;
+}
+
+label {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 4px;
+}
+
+label > span{
+  color: #F00;
+}
+
+input[type="text"],
+input[type="password"] {
+  height: 36px;
+  padding: 4px;
+  border-radius: 8px;
+  border: 1px solid #E6E6E6;
+  background: #FFF;
+  outline: none;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.forgotPassword{
+  color: var(--caption, #6D6D6D);
+  margin-bottom: 16px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+
+.submitButton {
+  height: 36px;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background: #FF7A00;
+  cursor: pointer;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 16px;
+}
+
+.orText{
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 16px;
+}
+
+.otherLoginButton{
+  height: 36px;
+  color: var(--Text, #1B1C17);
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: 1px solid #E6E6E6;
+  background: #FFF;
+  cursor: pointer;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.otherLoginButton > img{
+  width: 24px;
+  height: 24px;
+  margin-right: 16px
+}
+
+.register{
+  color: var(--caption, #6D6D6D);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.register > a{
+  color: #FF7A00;
+  text-decoration: none;
+}
